@@ -19,3 +19,7 @@ v1.2.0
 v1.3.0
 
 * Renaming from HeadScript to HeaderExtension
+
+v2.0.0
+
+* Add: Meta data also can be inserted

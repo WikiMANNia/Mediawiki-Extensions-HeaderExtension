@@ -1,6 +1,6 @@
 {
 	"name": "HeaderExtension",
-	"version": "1.3.0",
+	"version": "2.0.0",
 	"author": [
 		"[https://www.mediawiki.org/wiki/User:JinRyuuNagy JinRyuu]",
 		"[https://www.mediawiki.org/wiki/User:StarHeartHunt StarHeartHunt]",
@@ -25,6 +25,12 @@
 	},
 	"config_prefix": "wg",
 	"config": {
+		"HeadMetaCode": {
+			"value": "<!-- No Head Meta -->"
+		},
+		"HeadMetaName": {
+			"value": "<!-- No Meta Name -->"
+		},
 		"HeadScriptCode": {
 			"value": "<!-- No Head Script -->"
 		},
