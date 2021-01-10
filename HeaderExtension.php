@@ -2,12 +2,12 @@
 
 $wgExtensionCredits['other'][] = array(
         'path' => __FILE__,
-        'name' => "HeadScript",
+        'name' => "HeaderExtension",
         'description' => "Allows Scripts to be added just before the </head> tag to the wiki as configured in the LocalSettings.php file.",
 //      'descriptionmsg' => "",
-        'version' => 1.2.0,
+        'version' => 1.3.0,
         'author' => "JinRyuu",
-        'url' => "http://www.mediawiki.org/wiki/Extension:HeadScript",
+        'url' => "http://www.mediawiki.org/wiki/Extension:HeaderExtension",
 );
 
 
@@ -18,8 +18,8 @@ $wgHeadScriptName = '<!-- No Script Name -->';
 
 //Code for adding the head script to the wiki
 
-$wgHooks['BeforePageDisplay'][] = 'HeadScript';
-function HeadScript( OutputPage &$out, Skin &$skin ) {
+$wgHooks['BeforePageDisplay'][] = 'HeaderExtension';
+function HeaderExtension( OutputPage &$out, Skin &$skin ) {
 	global $wgHeadScriptCode, $wgHeadScriptName;
 
 	if ( !empty( $wgHeadScriptCode ) && !empty( $wgHeadScriptName ) ) {
