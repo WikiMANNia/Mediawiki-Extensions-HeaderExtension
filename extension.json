@@ -1,27 +1,27 @@
 {
-	"name": "HeadScript",
-	"version": "1.2.0",
+	"name": "HeaderExtension",
+	"version": "1.3.0",
 	"author": [
 		"[https://www.mediawiki.org/wiki/User:JinRyuuNagy JinRyuu]",
 		"[https://www.mediawiki.org/wiki/User:StarHeartHunt StarHeartHunt]",
 		"[https://www.mediawiki.org/wiki/User:WikiForMen WikiForMen]"
 	],
-	"url": "http://www.mediawiki.org/wiki/Extension:HeadScript",
-	"descriptionmsg": "headscript-desc",
+	"url": "http://www.mediawiki.org/wiki/Extension:HeaderExtension",
+	"descriptionmsg": "headerextension-desc",
 	"type": "other",
 	"license-name": "MIT",
 	"MessagesDirs": {
-		"HeadScript": [
+		"HeaderExtension": [
 			"i18n"
 		]
 	},
 	"Hooks": {
 		"BeforePageDisplay": [
-			"HeadScript::BeforePageDisplay"
+			"HeaderExtension::BeforePageDisplay"
 		]
 	},
 	"AutoloadClasses": {
-		"HeadScript": "HeadScript.class.php"
+		"HeaderExtension": "HeaderExtension.class.php"
 	},
 	"config_prefix": "wg",
 	"config": {

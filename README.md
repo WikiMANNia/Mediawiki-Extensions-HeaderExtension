@@ -1,9 +1,9 @@
-HeadScript
+HeaderExtension
 ==========
 
 Adds an easy system for adding and configuring head sripts for wiki on MediaWiki powered websites from the LocalSettings.php file.
 
-Installation instructions can be found at http://www.mediawiki.org/wiki/Extension:HeadScript
+Installation instructions can be found at http://www.mediawiki.org/wiki/Extension:HeaderExtension
 
 # Version history
 
@@ -15,3 +15,7 @@ v1.2.0
 
 * Add translations "de", "es"
 * Preventing empty code from being inserted
+
+v1.3.0
+
+* Renaming from HeadScript to HeaderExtension

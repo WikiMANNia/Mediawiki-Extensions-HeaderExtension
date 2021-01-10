@@ -5,5 +5,5 @@
 			"WikiMANNia"
 		]
 	},
-	"headscript-desc": "Allows Scripts to be added just before the </head> tag to the wiki as configured in the LocalSettings.php file."
+	"headerextension-desc": "Allows Scripts to be added just before the </head> tag to the wiki as configured in the LocalSettings.php file."
 }

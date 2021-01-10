@@ -5,5 +5,5 @@
 			"WikiMANNia"
 		]
 	},
-	"headscript-desc": "Ermöglicht das Hinzufügen von Skripten und Meta-Daten kurz vor dem </head>-Tag zum Wiki, wie in der Datei LocalSettings.php konfiguriert."
+	"headerextension-desc": "Ermöglicht das Hinzufügen von Skripten kurz vor dem </head>-Tag zum Wiki, wie in der Datei LocalSettings.php konfiguriert."
 }

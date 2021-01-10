@@ -2,5 +2,5 @@
 	"@metadata": {
 		"authors": []
 	},
-	"headscript-desc": "{{desc|name=HeadScript|url=https://www.mediawiki.org/wiki/Extension:HeadScript}}"
+	"headerextension-desc": "{{desc|name=HeaderExtension|url=https://www.mediawiki.org/wiki/Extension:HeaderExtension}}"
 }

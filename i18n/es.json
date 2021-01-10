@@ -5,5 +5,5 @@
 			"WikiMANNia"
 		]
 	},
-	"headscript-desc": "Permite que scripts y metadatos se añadan justo antes de la etiqueta </head> al wiki tal y como está configurado en el archivo LocalSettings.php."
+	"headerextension-desc": "Permite que scripts se añadan justo antes de la etiqueta </head> al wiki tal y como está configurado en el archivo LocalSettings.php."
 }
