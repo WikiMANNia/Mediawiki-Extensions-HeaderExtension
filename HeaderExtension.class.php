@@ -1,6 +1,6 @@
 <?php
 
-class HeadScript {
+class HeaderExtension {
     
     //Code for adding the head script to the wiki
     public static function BeforePageDisplay( OutputPage &$out, Skin &$skin ) {
