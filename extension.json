@@ -1,9 +1,10 @@
 {
 	"name": "HeadScript",
-	"version": "1.1.1",
+	"version": "1.2.0",
 	"author": [
 		"[https://www.mediawiki.org/wiki/User:JinRyuuNagy JinRyuu]",
-		"[https://www.mediawiki.org/wiki/User:StarHeartHunt StarHeartHunt]"
+		"[https://www.mediawiki.org/wiki/User:StarHeartHunt StarHeartHunt]",
+		"[https://www.mediawiki.org/wiki/User:WikiForMen WikiForMen]"
 	],
 	"url": "http://www.mediawiki.org/wiki/Extension:HeadScript",
 	"descriptionmsg": "headscript-desc",
