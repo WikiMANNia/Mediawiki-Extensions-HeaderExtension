@@ -3,7 +3,19 @@ HeaderExtension
 
 Adds an easy system for adding and configuring head sripts for wiki on MediaWiki powered websites from the LocalSettings.php file.
 
-Installation instructions can be found at http://www.mediawiki.org/wiki/Extension:HeaderExtension
+Installation instructions can be found at [MediaWiki](http://www.mediawiki.org/wiki/Extension:HeaderExtension).
+
+# Configuration
+
+## Add meta data
+
+* $wgHeadMetaName
+* $wgHeadMetaCode
+
+## Add skripts
+
+* $wgHeadScriptName
+* $wgHeadScriptCode
 
 # Version history
 
