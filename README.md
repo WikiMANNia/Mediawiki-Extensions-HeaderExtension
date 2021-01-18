@@ -6,25 +6,25 @@ The maintenance of the MediaWiki extension [HeaderExtension](https://www.mediawi
 
 El mantenimiento de la extensión de MediaWiki [HeaderExtension](https://www.mediawiki.org/wiki/Extension:HeaderExtension) está gestionado por WikiMANNia.
 
-# Description
+## Description
 
 Adds an easy system for adding and configuring head sripts for wiki on MediaWiki powered websites from the LocalSettings.php file.
 
 Installation instructions can be found at [MediaWiki](http://www.mediawiki.org/wiki/Extension:HeaderExtension).
 
-# Configuration
+## Configuration
 
-## Add meta data
+### Add meta data
 
 * $wgHeadMetaName
 * $wgHeadMetaCode
 
-## Add skripts
+### Add skripts
 
 * $wgHeadScriptName
 * $wgHeadScriptCode
 
-# Version history
+## Version history
 
 v1.1.1
 
