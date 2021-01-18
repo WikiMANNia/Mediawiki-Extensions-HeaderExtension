@@ -1,5 +1,12 @@
-HeaderExtension
-==========
+# HeaderExtension
+
+Die Pflege der MediaWiki-Erweiterung [HeaderExtension](https://www.mediawiki.org/wiki/Extension:HeaderExtension) wird von WikiMANNia verwaltet.
+
+The maintenance of the MediaWiki extension [HeaderExtension](https://www.mediawiki.org/wiki/Extension:HeaderExtension) is managed by WikiMANNia.
+
+El mantenimiento de la extensión de MediaWiki [HeaderExtension](https://www.mediawiki.org/wiki/Extension:HeaderExtension) está gestionado por WikiMANNia.
+
+# Description
 
 Adds an easy system for adding and configuring head sripts for wiki on MediaWiki powered websites from the LocalSettings.php file.
 
