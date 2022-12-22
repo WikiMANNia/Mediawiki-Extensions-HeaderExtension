@@ -1,6 +1,6 @@
 {
 	"name": "HeaderExtension",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"author": [
 		"[https://www.mediawiki.org/wiki/User:JinRyuuNagy JinRyuu]",
 		"[https://www.mediawiki.org/wiki/User:StarHeartHunt StarHeartHunt]",
@@ -17,11 +17,11 @@
 	},
 	"Hooks": {
 		"BeforePageDisplay": [
-			"HeaderExtension::BeforePageDisplay"
+			"HeaderExtension::onBeforePageDisplay"
 		]
 	},
 	"AutoloadClasses": {
-		"HeaderExtension": "HeaderExtension.class.php"
+		"HeaderExtension": "src/HeaderExtension.php"
 	},
 	"config_prefix": "wg",
 	"config": {

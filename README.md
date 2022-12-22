@@ -24,6 +24,10 @@ Installation instructions can be found at [MediaWiki](http://www.mediawiki.org/w
 * $wgHeadScriptName
 * $wgHeadScriptCode
 
+## Compatibility
+
+This extension works from REL1_25 and has been tested up to MediaWiki version `1.39.0`.
+
 ## Version history
 
 v1.1.1
@@ -42,3 +46,8 @@ v1.3.0
 v2.0.0
 
 * Add: Meta data also can be inserted
+
+v2.1.0
+
+* Refactoring
+* Add: Localisations

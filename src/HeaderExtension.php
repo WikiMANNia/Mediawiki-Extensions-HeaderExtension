@@ -2,8 +2,13 @@
 
 class HeaderExtension {
 
-	// Code for adding the head script and meta data to the wiki
-    public static function BeforePageDisplay( OutputPage &$out, Skin &$skin ) {
+	/**
+	 * Code for adding the head script to the wiki
+	 *
+	 * @param OutputPage &$out
+	 * @param Skin &$skin
+	 */
+	public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
 		global $wgHeadMetaCode, $wgHeadMetaName;
 
 		if ( !empty( $wgHeadMetaCode ) && !empty( $wgHeadMetaName ) ) {
@@ -19,7 +24,5 @@ class HeaderExtension {
 				$out->addHeadItem( $wgHeadScriptName, $wgHeadScriptCode );
 			}
 		}
-
-        return true;
-    }
+	}
 }
