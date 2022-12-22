@@ -4,5 +4,5 @@
 			"Sabelöga"
 		]
 	},
-	"headerextension-desc": "Gör så att skript kan läggas till precis innan </head> på wikin som det konfigurerades i LocalSettings.php-filen."
+	"headerextension-desc": "Gör så att skript kan läggas till precis innan <code>&lt;/head&gt;</code> på wikin som det konfigurerades i LocalSettings.php-filen."
 }
