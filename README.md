@@ -51,7 +51,9 @@ v2.1.0
 
 * Refactoring
 * Add: Localisations
+* Supports REL1_29
 
 v3.0.0
 
 * Refactoring
+* Supports REL1_35
