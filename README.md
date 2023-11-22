@@ -26,7 +26,7 @@ Installation instructions can be found at [MediaWiki](http://www.mediawiki.org/w
 
 ## Compatibility
 
-This extension works from REL1_25 and has been tested up to MediaWiki version `1.39.0`.
+This extension works from REL1_29 and has been tested up to MediaWiki version `1.39.5`.
 
 ## Version history
 
