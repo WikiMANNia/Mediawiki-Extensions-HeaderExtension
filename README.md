@@ -6,14 +6,6 @@ The maintenance of the MediaWiki extension [HeaderExtension](https://www.mediawi
 
 El mantenimiento de la extensión de MediaWiki [HeaderExtension](https://www.mediawiki.org/wiki/Extension:HeaderExtension) está gestionado por WikiMANNia.
 
-## MediaWiki
-
-MediaWiki ist männerfeindlich, siehe [T323956](https://phabricator.wikimedia.org/T323956).
-
-MediaWiki is hostile to Men, see [T323956](https://phabricator.wikimedia.org/T323956).
-
-MediaWiki es hostil a los hombres, véase [T323956](https://phabricator.wikimedia.org/T323956).
-
 ## Description
 
 Adds an easy system for adding and configuring head sripts for wiki on MediaWiki powered websites from the LocalSettings.php file.

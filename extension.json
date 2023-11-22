@@ -1,6 +1,6 @@
 {
 	"name": "HeaderExtension",
-	"version": "2.1.0",
+	"version": "2.1.1",
 	"author": [
 		"[https://www.mediawiki.org/wiki/User:JinRyuuNagy JinRyuu]",
 		"[https://www.mediawiki.org/wiki/User:StarHeartHunt StarHeartHunt]",
@@ -8,6 +8,9 @@
 	],
 	"url": "http://www.mediawiki.org/wiki/Extension:HeaderExtension",
 	"descriptionmsg": "headerextension-desc",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
 	"type": "other",
 	"license-name": "MIT",
 	"MessagesDirs": {

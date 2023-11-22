@@ -1,4 +1,10 @@
 <?php
+/**
+ * Hooks for HeaderExtension extension
+ *
+ * @file
+ * @ingroup Extensions
+ */
 
 class HeaderExtension {
 
@@ -7,6 +13,7 @@ class HeaderExtension {
 	 *
 	 * @param OutputPage &$out
 	 * @param Skin &$skin
+	 * @return void
 	 */
 	public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
 		global $wgHeadMetaCode, $wgHeadMetaName;
