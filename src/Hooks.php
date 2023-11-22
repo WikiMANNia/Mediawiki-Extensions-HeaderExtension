@@ -6,16 +6,24 @@
  * @ingroup Extensions
  */
 
-class HeaderExtension {
+namespace MediaWiki\Extension\HeaderExtension;
+
+use OutputPage;
+use Skin;
+
+/**
+ * @phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
+ */
+class Hooks implements BeforePageDisplayHook {
 
 	/**
 	 * Code for adding the head script to the wiki
 	 *
-	 * @param OutputPage &$out
-	 * @param Skin &$skin
-	 * @return void
+	 * @param OutputPage $out
+	 * @param Skin $skin
+	 * @return void This hook must not abort, it must return no value
 	 */
-	public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
+	public function onBeforePageDisplay( $out, $skin ) : void {
 		global $wgHeadMetaCode, $wgHeadMetaName;
 
 		if ( !empty( $wgHeadMetaCode ) && !empty( $wgHeadMetaName ) ) {

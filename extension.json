@@ -1,6 +1,6 @@
 {
 	"name": "HeaderExtension",
-	"version": "2.1.1",
+	"version": "3.0.0",
 	"author": [
 		"[https://www.mediawiki.org/wiki/User:JinRyuuNagy JinRyuu]",
 		"[https://www.mediawiki.org/wiki/User:StarHeartHunt StarHeartHunt]",
@@ -9,7 +9,7 @@
 	"url": "http://www.mediawiki.org/wiki/Extension:HeaderExtension",
 	"descriptionmsg": "headerextension-desc",
 	"requires": {
-		"MediaWiki": ">= 1.29.0"
+		"MediaWiki": ">= 1.35.0"
 	},
 	"type": "other",
 	"license-name": "MIT",
@@ -19,12 +19,15 @@
 		]
 	},
 	"Hooks": {
-		"BeforePageDisplay": [
-			"HeaderExtension::onBeforePageDisplay"
-		]
+		"BeforePageDisplay": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\HeaderExtension\\Hooks"
+		}
 	},
 	"AutoloadClasses": {
-		"HeaderExtension": "src/HeaderExtension.php"
+		"HeaderExtension": "src/Hooks.php"
 	},
 	"config_prefix": "wg",
 	"config": {
