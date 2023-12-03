@@ -27,7 +27,7 @@
 		}
 	},
 	"AutoloadClasses": {
-		"HeaderExtension": "src/Hooks.php"
+		"MediaWiki\\Extension\\HeaderExtension\\Hooks": "src/Hooks.php"
 	},
 	"config_prefix": "wg",
 	"config": {

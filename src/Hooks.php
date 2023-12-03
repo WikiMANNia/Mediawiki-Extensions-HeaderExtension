@@ -8,6 +8,8 @@
 
 namespace MediaWiki\Extension\HeaderExtension;
 
+use MediaWiki\Hook\BeforePageDisplayHook;
+
 use OutputPage;
 use Skin;
 
